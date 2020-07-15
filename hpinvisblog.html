@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Invisible Cloak</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <!-- ======= Mobile nav toggle button ======= -->
+  <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex flex-column justify-content-center">
+
+    <nav class="nav-menu">
+      <ul>
+        <li class="active"><a href="#hero"><i class="bx bx-home"></i> <span>Home</span></a></li>
+        <li><a href="#about"><i class="bx bx-user"></i> <span>About</span></a></li>
+        <li><a href="#resume"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+        <li><a href="#portfolio"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
+        <li><a href="#services"><i class="bx bx-server"></i> <span>Services</span></a></li>
+        <li><a href="#contact"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+      </ul>
+    </nav><!-- .nav-menu -->
+
+  </header><!-- End Header -->
+
+  <!--/ Intro Skew Star /-->
+  <div class="intro intro-single route bg-image" style="background-image: url(assets/img/bgblog02.jpg)">
+    <div class="overlay-mf"></div>
+    <div class="intro-content display-table">
+      <div class="table-cell">
+        <div class="container">
+          <h2 class="intro-title mb-4">Invisible Cloak, OpenCV, Python</h2>
+          <ol class="breadcrumb d-flex justify-content-center">
+            <li class="breadcrumb-item">
+              <a href="#">Home</a>
+            </li>
+            <li class="breadcrumb-item">
+              <a href="#">Blog</a>
+            </li>
+            <li class="breadcrumb-item active">Data Science</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--/ Intro Skew End /-->
+
+  <!--/ Section Blog-Single Star /-->
+  <section class="blog-wrapper sect-pt4" id="blog">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="post-box">
+            <div class="post-thumb">
+              <img src="assets/img/blog02.gif" class="img-fluid" alt="">
+            </div>
+            <div class="post-meta">
+              <h1 class="article-title">Harry Potter Invisibility Cloak — Using OpenCV, Python — Computer Vision</h1>
+              <ul>
+                <li>
+                  <span class="ion-ios-person"></span>
+                  <a href="#">Chaitanya Pavan</a>
+                </li>
+                <li>
+                  <span class="ion-pricetag"></span>
+                  <a href="#">Artificial Intelligence</a>
+                </li>
+                <li>
+                  <span class="ion-chatbox"></span>
+                  <a href="#">14</a>
+                </li>
+              </ul>
+            </div>
+            <div class="article-content">
+              <p>
+                Harry got his cloak of invisibility from his father whilst we can create our own and check how it looks on us, using OpenCV.
+                <b>Yes!</b> no need of going to Hogwarts, all you need to have is interest to learn and a computer.
+              </p>
+              <p>
+                Here's the Algorithm to make your own invisible cloak using OpenCV,Python.
+              </p>
+              <div class="post-thumb">
+                <img src="assets/img/blog2.jpg" class="img-fluid" alt="">
+              </div>
+              <p>
+
+              </p>
+              <p>
+                <b style="font-size:30px;">How are we going to do it?</b>
+              </p>
+              <p>
+                We all heard of Green screening, all those VFX effects in movies.
+                Here what we do is the opposite to that of green screening(removing background), yes we remove the foreground
+              </p>
+              <div class="post-thumb">
+                <img src="assets/img/blog002.gif" class="img-fluid" alt="">
+              </div>
+              <p></p>
+              <p>
+                Here I used blue color cloth. Can I use any other color! yes red, green will also work
+              </p>
+              <p> </p>
+              <p>
+                <b>Let’s set the Environment</b>
+              </p>
+              <p>We need to install the OpenCV (Open Source Computer Vision) library
+                which helps us carry out tasks related to computer vision. <a href="https://www.youtube.com/watch?v=5mDYijMfSzs" target='_blank'><u>We need to do a pip install for the OpenCV library.</u></a></p>
+              <p class="code">
+                pip install opencv-python
+              </p>
+              <p>
+                Open Spyder(Installation-<a href="https://www.youtube.com/watch?v=5mDYijMfSzs" target="_blank"><u>https://www.youtube.com/watch?v=5mDYijMfSzs</u></a>)
+              </p>
+              <p> </p>
+              <p>
+                <b>Import the libraries</b>
+              </p>
+              <p class="code">
+                <br>import cv2</br>
+                <br>import numpy as np</br>
+                <br>import time<br>
+              </p>
+
+              <p>
+                <b>Capturing the videos</b>
+              </p>
+              <p>
+              </p>
+              <p class="code">
+                Video_capture = cv2.VideoCapture(0)
+              </p>
+              <p>
+              The first step towards reading a video file is to create a VideoCapture object.
+              Its argument can be the device index. (0- integrated web came,1- external webcam and so on..)
+              </p>
+              <p>
+                Let the system camera warm up!
+              </p>
+              <p class="code">
+                <br>time.sleep(3)</br>
+                <br>background = 0</br>
+              </p>
+
+              <p>
+                Python time sleep function is used to add a delay in the execution of a program.
+                When the statement time.sleep(t) is executed then the next line of code will be executed after t seconds.
+              </p>
+              <p class="code">
+                <br>for i in range(45):</br>
+                <br>  ret, background = Video_capture.read()</br>
+                <br>background = np.flip(background, axis=1)</br>
+              </p>
+              <p>
+                Here we are capturing the background in the range of 45 and flipping(literally) the background
+              </p>
+              <p>
+                <b style="font-size:30px;">Color detection and segmentation</b>
+              </p>
+              <p class="code">
+                <br>while (Video_capture.isOpened()):</br>
+                <br>  ret, frame = cap.read()</br>
+                <br>  if not ret:</br>
+                <br>    break</br>
+                <br>  frame= np.flip(frame, axis=1)</br>
+              </p>
+              <p>
+                Here we create a while loop to capture the frame and run the frame. capture.read() returns a bool (True/False). If the frame is read correctly, it will be True.
+                “ret” will obtain return value from getting the camera frame, either true or false. “frame” will get the next frame in the camera (via “capture”).
+              </p>
+              <p>
+                <br>“if not ret:</br>
+                break”. This snippet of code breaks the loop if the frame isn’t returned.
+              </p>
+              <p class="code">
+                <br>#Converting the color space from BGR to HSV</br>
+                <br>  hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)</br>
+              </p>
+              <p>
+                BGR — HSV is one of the color-space conversion methods available in OpenCV. For color conversion, we use the function cv2.cvtColor(input_image, flag) where flag determines the type of conversion. For BGR -HSV, we use the flag cv2.COLOR_BGR2HSV.
+                “Video_capture.read” which captures the frame in BGR (Blue-Green-Red) colors, while we use HSV format for masking. Hence we flip the color code of the frame.
+              </p>
+              <p class="code">
+                <br>#Creating masks with ranges of blue color to detect</br>
+                <br>  lower_blue = np.array([94, 80, 2])</br>
+                <br>  upper_blue = np.array([126, 255, 255])</br>
+                <br>  mask_all = cv2.inRange(hsv,lower_blue,upper_blue)</br>
+              </p>
+              <p>
+              We are creating a range for the color(blue), where we define the lowest part of the highest part of blue color (lowest and highest values of HSV). The “inRange” function returns a binary mask, in which white pixels (255) represent pixels that fall into the upper and lower limit range and black pixels (0) do not.
+              We generated a mask to determine the region in the frame corresponding to the detected blue color
+              </p>
+              <p>
+                <b>Choose your color and create the invisibility cloak</b>
+              </p>
+              <p>
+                Just replace the code snippet
+              </p>
+              <p class="code">
+                <br>#Range of different colors</br>
+                <br><b>Red color</b></br>
+                <br>low_red = np.array([161, 155, 84]) high_red = np.array([179, 255, 255])</br>
+                <br><b>Blue color</b></br>
+                <br>low_blue = np.array([94, 80, 2]) high_blue = np.array([126, 255, 255])</br>
+                <br><b>Green color</b></br>
+                <br>low_green = np.array([25, 52, 72]) high_green = np.array([102, 255, 255])</br>
+                <br><b>Every color except white</b></br>
+                <br>low = np.array([0, 42, 0]) high = np.array([179, 255, 255])</br>
+              </p>
+              <p>
+              Now we have to refine this mask and then use it for segmenting out the cloth from the frame.
+              </p>
+              <p class="code">
+                <br>#Doing morphological operations</br>
+                <br>mask_all = cv2.morphologyEx(mask_all, cv2.MORPH_OPEN,</br>
+                <br>np.ones((3,3),np.uint8))</br>
+                <br>mask_all = cv2.morphologyEx(mask_all, cv2.MORPH_DILATE,</br>
+                <br>np.ones((3,3),np.uint8))</br>
+              </p>
+              <p>
+              Here we perform some Morphological transformations( operations based on the image shape) using cv2.morphologyEx. It needs three inputs, one is our original image, operators and kernel size.
+              “np.ones((3,3),np.uint8)” is the kernel where (3,3) is the size and “np.unit8” is the data type.
+              </p>
+              <p>
+              The Morphological operators we use here are Opening and Dilation. Dilation increases the white region in the frame or size of foreground object increases.
+              Opening is just another name of erosion followed by dilation. It is useful in removing noise.erosion(just like soil erosion, erodes the boundaries) removes white noises, but it also shrinks our object. So we dilate it. Since noise is gone, they won’t come back, but our object area increases. It also helps in joining broken parts of an object.
+              </p>
+              <p class="code">
+                <br>#Create an inverted mask to segment out the blue from the </br>
+                <br>#frame(hiding the blue part)</br>
+                <br>mask1 = cv2.bitwise_not(mask_all)</br>
+                <br>## Segment the blue color part out of the frame using bitwise and #with the inverted mask</br>
+                <br>streamA = cv2.bitwise_and(frame,frame,mask=mask1)</br>
+                <br># Creating an image showing static background frame pixels only for #the masked region</br>
+                <br>streamB = cv2.bitwise_and(background, background, mask = mask_all)</br>
+                <br>mask1 = cv2.bitwise_not(mask_all)</br>
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis lorem ut libero malesuada feugiat.
+                Curabitur arcu erat,
+                accumsan id imperdiet et, porttitor at sem. Vivamus suscipit tortor eget felis porttitor
+                volutpat. Vivamus suscipit tortor eget felis porttitor volutpat. Quisque velit nisi, pretium
+                ut lacinia in, elementum id enim.
+              </p>
+              <blockquote class="blockquote">
+                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+              </blockquote>
+              <p>
+                Nulla porttitor accumsan tincidunt. Cras ultricies ligula sed magna dictum porta. Mauris blandit
+                aliquet elit, eget tincidunt
+                nibh pulvinar a. Cras ultricies ligula sed magna dictum porta. Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit. Donec sollicitudin molestie malesuada.
+              </p>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-4">
+
+          <div class="widget-sidebar">
+            <h5 class="sidebar-title">Recent Post</h5>
+            <div class="sidebar-content">
+              <ul class="list-sidebar">
+                <li>
+                  <a href="#">Atque placeat maiores.</a>
+                </li>
+                <li>
+                  <a href="#">Lorem ipsum dolor sit amet consectetur</a>
+                </li>
+                <li>
+                  <a href="#">Nam quo autem exercitationem.</a>
+                </li>
+                <li>
+                  <a href="#">Atque placeat maiores nam quo autem</a>
+                </li>
+                <li>
+                  <a href="#">Nam quo autem exercitationem.</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="widget-sidebar widget-tags">
+            <h5 class="sidebar-title">Tags</h5>
+            <div class="sidebar-content">
+              <ul>
+                <li>
+                  <a href="#">Web.</a>
+                </li>
+                <li>
+                  <a href="#">Design.</a>
+                </li>
+                <li>
+                  <a href="#">Travel.</a>
+                </li>
+                <li>
+                  <a href="#">Photoshop</a>
+                </li>
+                <li>
+                  <a href="#">Corel Draw</a>
+                </li>
+                <li>
+                  <a href="#">JavaScript</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/ Section Blog-Single End /-->
+
+  <!--/ Section Contact-Footer Star /-->
+  <section class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(img/overlay-bg.jpg)">
+    <div class="overlay-mf"></div>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="copyright-box">
+              <p class="copyright">&copy; Copyright <strong>DevFolio</strong>. All Rights Reserved</p>
+              <div class="credits">
+                <!--
+                  All the links in the footer should remain intact.
+                  You can delete the links only if you purchased the pro version.
+                  Licensing information: https://bootstrapmade.com/license/
+                  Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=DevFolio
+                -->
+                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </section>
+  <!--/ Section Contact-footer End /-->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <div id="preloader"></div>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/popper/popper.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/counterup/jquery.waypoints.min.js"></script>
+  <script src="lib/counterup/jquery.counterup.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/lightbox/js/lightbox.min.js"></script>
+  <script src="lib/typed/typed.min.js"></script>
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
