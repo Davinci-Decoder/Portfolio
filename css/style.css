@@ -923,7 +923,9 @@ a:hover {
 /*======================================
 //--//-->   PORTFOLIO
 ======================================*/
-
+.portfolio-info{
+  top: auto;
+}
 .work-box {
   margin-bottom: 3rem;
   -webkit-backface-visibility: hidden;
