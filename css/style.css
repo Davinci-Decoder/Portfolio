@@ -31,6 +31,9 @@ a:hover {
   transition: all 0.5s ease-in-out;
 }
 
+.quotes{
+  color: #FFA500;
+}
 .code{
   font-family: Menlo, Monaco, "Courier New", Courier, monospace;
   line-height: 0.7;
@@ -842,18 +845,21 @@ a:hover {
 
 .skill-mf span {
   color: #4e4e4e;
+  font-size: 1.5rem;
 }
 
 .skill-mf .progress {
   background-color: #cde1f8;
   margin: .5rem 0 1.2rem 0;
   border-radius: 0;
-  height: .7rem;
+  height: 1rem;
+  font-size: 1.5rem;
 }
 
 .skill-mf .progress .progress-bar {
-  height: .7rem;
+  height: 1rem;
   background-color: #FFA500;
+  font-size: 1.5rem;
 }
 
 /*======================================
@@ -1232,7 +1238,7 @@ a:hover {
 
 footer {
   text-align: center;
-  color: #fff;
+  color: #FFA500;
   padding-bottom: 4rem;
 }
 
@@ -1245,7 +1251,7 @@ footer .credits {
 }
 
 footer .credits a {
-  color: #fff;
+  color: #FFA500;
 }
 
 /*======================================
